@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+#box{
+    display: flex;
+    border-radius: 1em;
+    margin: 10px;
+    width: 50%;
+    background: #dadada;
+}
+#boxi{
+    padding: 30px 10px;
+    font-size: 1.5vw;
+    line-height: 5vh;
+}
+button{
+    padding: 8px;
+    background: rgb(120, 75, 161);
+    color: white;
+    font-size: 1vw;
+    border-radius: 1em;
+}
+
+#top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
